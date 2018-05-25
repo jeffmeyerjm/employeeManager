@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="3"
+            failures="2"
             tests="10">
 
   <testsuite name="tests"
-    errors="0" failures="3" hostname="" id="" package="tests" skipped="0"
-    tests="10" time="12.64" timestamp="Wed, 23 May 2018 14:32:03 GMT">
+    errors="0" failures="2" hostname="" id="" package="tests" skipped="0"
+    tests="10" time="11.48" timestamp="Fri, 25 May 2018 18:18:30 GMT">
   
-    <testcase name="UI Test" classname="tests" time="2.877" assertions="6">
+    <testcase name="UI Test" classname="tests" time="2.514" assertions="6">
 
     
 
@@ -22,62 +22,7 @@
     
     </testcase>
   
-    <testcase name="Add an employee with valid entries" classname="tests" time="1.045" assertions="8">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Save employee edit - Check if container name updated" classname="tests" time="0.8050" assertions="6">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Save a different employee edit - Verify info saved " classname="tests" time="0.8680" assertions="7">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="PHONE error Messages and CORRECT it- Excessive characters" classname="tests" time="1.193" assertions="10">
-
-    
-
-    
+    <testcase name="Add an employee with valid entries" classname="tests" time="0.9530" assertions="8">
 
     
 
@@ -96,7 +41,39 @@
     
     </testcase>
   
-    <testcase name="PHONE error Messages and CORRECT it- TOO FEW characters" classname="tests" time="1.156" assertions="10">
+    <testcase name="Save employee edit - Check if container name updated" classname="tests" time="0.6980" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Save a different employee edit - Verify info saved " classname="tests" time="0.8460" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="PHONE error Messages and CORRECT it- Excessive characters" classname="tests" time="1.113" assertions="10">
 
     
 
@@ -119,53 +96,7 @@
     
     </testcase>
   
-    <testcase name="TITLE error Messages and CORRECT it- Excessive characters" classname="tests" time="1.263" assertions="10">
-
-    
-
-    
-
-      <failure message="Error Message Shows up Properly">    at Object.TITLE error Messages and CORRECT it- Excessive characters (/Users/jeffmeyer/Documents/Projects/employee manager/tests/tests.js:131:17)</failure>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="TITLE error Messages and CORRECT it - TOO FEW Characters" classname="tests" time="1.083" assertions="10">
-
-    
-
-    
-
-      <failure message="Error Message Shows up Properly">    at Object.TITLE error Messages and CORRECT it - TOO FEW Characters (/Users/jeffmeyer/Documents/Projects/employee manager/tests/tests.js:151:17)</failure>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="NAME error Messages and CORRECT it- Excessive characters" classname="tests" time="1.289" assertions="10">
+    <testcase name="PHONE error Messages and CORRECT it- TOO FEW characters" classname="tests" time="1.044" assertions="10">
 
     
 
@@ -188,13 +119,82 @@
     
     </testcase>
   
-    <testcase name="NAME error Messages and CORRECT it- Too Few Characters" classname="tests" time="1.057" assertions="10">
+    <testcase name="TITLE error Messages and CORRECT it- Excessive characters" classname="tests" time="1.174" assertions="10">
 
     
 
     
 
-      <failure message="Error Message Shows up Properly">    at Object.NAME error Messages and CORRECT it- Too Few Characters (/Users/jeffmeyer/Documents/Projects/employee manager/tests/tests.js:193:17)</failure>
+      <failure message="Testing if element &lt;//div[text()=&#34;The title field must be between 1 and 30 characters long. &#34;]&gt; is present.">    at Object.TITLE error Messages and CORRECT it- Excessive characters (/Users/jeffmeyer/Documents/Projects/employee manager/tests/tests.js:138:21)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="TITLE error Messages and CORRECT it - TOO FEW Characters" classname="tests" time="0.9670" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="NAME error Messages and CORRECT it- Excessive characters" classname="tests" time="1.192" assertions="10">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;//div[text()=&#34;The title field must be between 1 and 30 characters long. &#34;]&gt; is not present.">    at Object.NAME error Messages and CORRECT it- Excessive characters (/Users/jeffmeyer/Documents/Projects/employee manager/tests/tests.js:186:21)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="NAME error Messages appears and CORRECT it- Too Few Characters" classname="tests" time="0.9780" assertions="10">
+
+    
+
+    
+
+    
 
     
 

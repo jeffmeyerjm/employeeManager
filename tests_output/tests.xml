@@ -5,18 +5,18 @@
 
   <testsuite name="tests"
     errors="1" failures="0" hostname="" id="" package="tests" skipped="0"
-    tests="1" time="0.009000" timestamp="Tue, 22 May 2018 20:43:16 GMT">
+    tests="1" time="0.01100" timestamp="Thu, 24 May 2018 16:39:00 GMT">
   
-    <testcase name="UI Test" classname="tests" time="0.009000" assertions="0">
+    <testcase name="NAME error Messages and CORRECT it- Too Few Characters" classname="tests" time="0.01100" assertions="0">
     </testcase>
   
 
   
     <system-err>
-        Error while running [Tests / UI Test]:
+        Error while running [Tests / NAME error Messages and CORRECT it- Too Few Characters]:
 
-  ReferenceError: ß is not defined
-    at Object.UI Test (/Users/jeffmeyer/Documents/Projects/employee manager/tests/tests.js:21:9)
+  ReferenceError: Keys is not defined
+    at Object.NAME error Messages and CORRECT it- Too Few Characters (/Users/jeffmeyer/Documents/Projects/employee manager/tests/tests.js:180:45)
     at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)

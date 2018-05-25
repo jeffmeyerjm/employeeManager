@@ -10,6 +10,7 @@ module.exports = {
       "port" : 4445,
       "cli_args" : {
         "webdriver.chrome.driver" : properties.resourcePath + properties.chromedriver,
+        "webdriver.gecko.driver" : properties.resourcePath + properties.geckodriver
       }
     },
   
@@ -28,7 +29,7 @@ module.exports = {
         }
       },
   
-      "firefox" : {
+      firefox : {
         "desiredCapabilities": {
           "browserName": "firefox",
           "marionette": true
@@ -39,6 +40,10 @@ module.exports = {
         "desiredCapabilities": {
           "browserName": "MicrosoftEdge"
         }
+      },
+      "test_workers" : {
+        "enabled": true,
+        "workers": "auto"
       }
     }
   }
